@@ -1,0 +1,17 @@
+# Ultra pedantic checks
+
+---
+Checks: >
+  linuxkernel-*,
+  portability-*,
+  readability-*,
+  performance-*,
+  concurrency-*,
+  misc-*,
+  clang-analyzer-*,
+  modernize-*,
+  bugprone-*,
+  cert-*,
+
+# Treat all warnings as errors in CI
+WarningsAsErrors: '*'
